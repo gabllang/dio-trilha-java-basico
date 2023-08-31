@@ -134,6 +134,89 @@ public class Operadores {
         // porque eu só não sei o valor como false?
         // por que eu queria inverter apenas, não colocar manualmente, assim se caso tivesse
         // o valor da variavel como true ficaria false, e se tivesse false ficaria true
+
+
+
+        // agora expressão condicional
+
+        int a, b;
+
+        a = 5;
+        b = 6;
+
+        String resultado2 = "";
+
+        // exemplo de condicional usando uma estrutura if/else
+        if(a==b)
+            resultado2 = "verdadeiro";
+        else
+            resultado2 = "falso";
+
+            System.out.println(resultado2);
+
+        
+        
+        // usando operador alternario (forma abreviada mas complicada)
+
+        a = 6;
+        b = 6;
+
+        String resultado3 = a==b ?"verdadeiro" : "falso";
+
+        System.out.println(resultado3);
+
+
+        // operadores relacionais
+
+        // == igualdade entre dois valores
+        // != diferença
+        // > não preciso explicar
+        // >=
+        // <
+        // <=
+
+
+        // também é possivel verificar string
+        String nomeUm = "Gabriel";
+        String nomeDois = "Davi";
+
+        System.out.println(nomeUm == nomeDois);
+
+        // texto normalmente é usado o metodo equals
+
+        System.out.println(nomeUm.equals(nomeDois));
+
+        // numero
+
+        int numer1 = 1;
+        int numer2 = 2;
+
+        boolean simNao = numer1 == numer2;
+
+        if(numer1 < numer2){
+            System.out.println("a nossa condição é verdadeira");
+        }
+
+        // não vai ser impressa pois não é verdadeira
+        if(numer1 == numer2){
+            System.out.println("a nossa condição é verdadeira");
+        }
+
+        System.out.println("numero um é igual a numero dois? "+ simNao);
+
+        simNao = numer1 != numer2;
+
+        System.out.println("numero um é diferente a numero dois? "+ simNao);
+
+        simNao = numer1 > numer2;
+
+        System.out.println("numero um é maior que numero dois? "+ simNao);
+        
+        simNao = numer1 < numer2;
+
+        System.out.println("numero um é menor que numero dois? "+ simNao);
+
+        
     }
 
 }
