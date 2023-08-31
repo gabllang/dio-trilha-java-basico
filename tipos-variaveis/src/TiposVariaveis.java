@@ -13,5 +13,12 @@ public class TiposVariaveis {
         // por convenção, as constantes devem ser escritas em caixa alta separadas por underline 
 
         System.out.println(VALOR_DE_PI);
+
+        String meuNome = "Gabriel";
+        meuNome = "Davi";
+
+        System.out.println(meuNome);
+
+        
     }
 }
