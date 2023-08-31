@@ -76,6 +76,64 @@ public class Operadores {
 
         System.out.println(numero);
 
+
+        // INCREMENTO
+        // x repetição
+
+        int numero2 = 5;
+
+        numero2 = numero2 + 1;
+
+        System.out.println(numero2);
+
+        // adicionar o ++ depois de trazer a var é a mesma coisa que isso  numero2 = numero2 + 1;
+        numero2++;
+
+        System.out.println(numero2);
+
+        // colocando no final o ++ você deixa a prioridade dela por ultimo também
+        // assim primeiro imprimindo o valor, depois adicionando o valor
+        System.out.println(numero2++);
+
+        // veja como adicionou
+        System.out.println(numero2);
+
+        // a logica funciona também para incrementar primeiro
+        System.out.println(++numero2);
+
+        // o legal é que simplifica todo o processo de chamar a var para adicionar, chama logo no sout e adiciona "permanentemente"
+        System.out.println(numero2);
+
+        // agora a subtração
+        System.out.println(numero2--);
+
+        System.out.println(numero2);
+
+        System.out.println(--numero2);
+        // funciona da mesma forma
+
+
+
+        // do nada ele começou a falar de valor boleano
+        boolean variavel = true;
+
+        // invertendo 
+        System.out.println(!variavel);
+        // para inverter no sout o valor boleano colocamos o !
+
+        // mas não fica permanentemente
+        System.out.println(variavel);
+
+        // como faço pra ficar permanente?
+        // chamando a var e usando o mesmo metodo
+
+        variavel = !variavel;
+
+        System.out.println(variavel);
+
+        // porque eu só não sei o valor como false?
+        // por que eu queria inverter apenas, não colocar manualmente, assim se caso tivesse
+        // o valor da variavel como true ficaria false, e se tivesse false ficaria true
     }
 
 }
