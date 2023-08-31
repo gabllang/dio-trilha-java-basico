@@ -217,6 +217,31 @@ public class Operadores {
         System.out.println("numero um é menor que numero dois? "+ simNao);
 
         
+
+        // operadores logicos
+
+        // && operador logico "E"
+        // || operador logico "OU"
+
+        boolean condicao1 = true;
+
+        boolean condicao2 = false;
+
+        //não vai ser mostrado por que as duas condições não são verdadeiras
+        if(condicao1 && condicao2) {
+            System.out.println("As duas condições são verdadeiras!");
+        }
+
+        // como ja explica o texto, o operador e OU faz com que valide alguma das condições
+         if(condicao1 || condicao2) {
+            System.out.println("Uma das condições é verdadeira!");
+        }
+
+         if(condicao1 && (7 > 4)) {
+            System.out.println("As duas condições são verdadeiras!");
+        }
+
+        System.out.println("fim!");
     }
 
 }
